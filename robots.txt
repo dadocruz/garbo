@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://garboeventos.com.br/sitemap.xml
