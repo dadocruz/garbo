@@ -63,7 +63,7 @@ function productCard(p, i) {
         <h3>${p.name}</h3>
         <p>${p.description}</p>
         <div class="product-actions">
-          <a class="btn btn-whatsapp" href="${whatsappFor(p.name)}" target="_blank" rel="noopener noreferrer">
+          <a class="btn btn-whatsapp js-whatsapp-click" href="${whatsappFor(p.name)}" target="_blank" rel="noopener noreferrer" data-conversion="whatsapp">
             ${iconWhatsapp()} Orçar
           </a>
           <button type="button" class="ghost-btn" onclick="openModal(${i})">Ver fotos</button>
